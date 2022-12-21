@@ -1,0 +1,89 @@
+.feat{
+    width: 100%;
+    display: flex;
+}
+
+.featItem{
+    
+
+    text-align: center;
+    flex: 1;
+    margin: 0px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 11px -1px rgb(193, 193, 193);
+    -webkit-box-shadow: 0px 0px 11px -1px rgb(193, 193, 193);
+}
+
+.featTitle{
+    margin: 0 20px ;
+    text-align: left;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.featContainer{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.flag{
+    height: 60px;
+}
+
+.featFlagName{
+    font-weight: bold;
+    font-size: small;
+    color: #888888;
+}
+
+.featSub{
+    font-weight: bold;
+    font-size: small;
+    color: #888888;
+}
+
+
+.flagMin{
+    height: 15px;
+    margin: 5px;
+    vertical-align: middle;
+}
+
+/* espacement */
+
+ table {
+    width: 100%;
+    height: 77%;
+    border-collapse: collapse;
+  }
+
+.Main{
+    padding-left: 20px;
+    text-align: left;
+}
+  
+/* typographie */
+ thead th{
+    font-size: x-small;
+    color: #888888;
+ }  
+
+  tbody td {
+    text-align: center;
+  }
+  
+
+thead, tfoot {
+    color: rgb(0, 0, 0);
+  }
+  
+ 
+
+tbody tr:nth-child(odd) {
+    background-color: #EEEEEE;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #ffff;
+  }

@@ -1,0 +1,94 @@
+.sidebar{
+    flex: 1;
+    height: calc(100vh - 16px);
+    background-color: #830542;
+    position: sticky;
+    top: 50px;
+    border-radius: 5px;
+}
+
+.sidebarWrapper{
+    padding: 20px;
+    color: #FFFF;
+}
+
+.sidebarLogo{
+    height: 65px;
+}
+
+.sidebarMenu{
+    margin-bottom: 10px;
+}
+
+.sidebarList{
+    list-style: none;
+    padding: 5px;
+}
+
+.sidebarListItem{
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.sidebarListItem.active, .sidebarListItem:hover{
+    background-color: #5B062F;
+}
+
+
+.material-symbols-rounded {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+
+  padding-left: 20px;
+  padding-right: 35px;
+}
+
+
+
+/* Icone Bas de Page */
+
+.topbarWrapper{
+    height: 6%;
+    width: 85%;
+    padding: 0px 20px;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    top: 93%;
+}
+
+.topRight{
+    display: flex;
+    justify-content: space-around;
+}
+
+.topBarIconContainer{
+    position: relative;    
+    cursor: pointer;
+    margin-right: 10px;
+    color:#FFFF;    
+}
+
+
+
+
+.topIconBadge{
+    width: 15px;
+    height: 15px;    
+    position: absolute;
+    top: -5px;
+    right: -1px;
+    background-color: rgb(255, 0, 0);
+    color: aliceblue;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}

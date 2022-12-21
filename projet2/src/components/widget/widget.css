@@ -1,0 +1,63 @@
+.Widg{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    /* background-color: aqua; */
+}
+
+.WidgItem{
+    
+  text-align: center;
+  flex: 1;
+  margin: 0px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 11px -1px rgb(193, 193, 193);
+  -webkit-box-shadow: 0px 0px 11px -1px rgb(193, 193, 193);
+}
+
+.WidgTitle{
+  margin: 0 20px ;
+  text-align: left;
+  font-size: small;
+  font-weight: bold;
+}
+
+.flagMin1{
+    height: 15px;
+    margin: 5px;
+    vertical-align: middle;
+}
+
+/* espacement */
+
+ .table {
+    width: 100%;
+    height: 77%;
+    border-collapse: collapse;
+  }
+
+.Main1{
+    padding-left: 20px;
+    text-align: left;
+    font-size: small;
+}
+  
+/* typographie */
+ thead th{
+    font-size: xx-small;
+    color: #888888;
+ }  
+
+  tbody td {
+    font-size: small;
+    text-align: center;
+  }
+  
+
+tbody tr:nth-child(odd) {
+    background-color: #EEEEEE;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #ffff;
+  }

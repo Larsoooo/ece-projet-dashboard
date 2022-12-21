@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+}
+
+.home {
+    padding-top: 5px;
+    flex: 4;
+}
